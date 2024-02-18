@@ -1,0 +1,30 @@
+/* components/Navbar.module.css */
+
+.navContainer {
+  background-color: #4f46e5;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.main{
+  color:#4f46e5;
+}
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navItem {
+  margin: 0;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: red;
+}

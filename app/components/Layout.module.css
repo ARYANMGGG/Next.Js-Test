@@ -1,0 +1,15 @@
+/* styles/Home.module.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  @font-face {
+    font-family: 'B yekan';
+    src: url('/fonts/BYekan.woff') format('truetype');
+    /* می‌توانید فرمت‌های دیگر را نیز اضافه کنید */
+  }
+  body {
+    font-family:'B yekan','Inter', sans-serif;
+  }
